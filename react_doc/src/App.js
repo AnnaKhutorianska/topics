@@ -1,8 +1,10 @@
 import React from "react";
-import { ContextTheme } from './components/Context/Context'
-import Profile from "./components/Context/Profile";
-import Theme from "./components/Context/Theme";
-import { Users } from "./components/ErrorBoundaries/Users";
+import HOC from "./components/Higher Order Components/HOC";
+// import ForwardingRefs from "./components/ForwardingRefs/ForwardingRefs";
+// import { ContextTheme } from './components/Context/Context'
+// import Profile from "./components/Context/Profile";
+// import Theme from "./components/Context/Theme";
+// import { Users } from "./components/ErrorBoundaries/Users";
 // import CompositionvsInheritance from "./components/CompositionvsInheritance/CompositionvsInheritance";
 // import Form from "./components/Form/Form";
 // import Uncontroled from "./components/Form/Uncontroled";
@@ -18,7 +20,9 @@ function App() {
         <Profile />
         <Theme />
       </ContextTheme> */}
-      <Users />
+      {/* <Users /> */}
+      {/* <ForwardingRefs /> */}
+      <HOC />
     </div>
   );
 }
