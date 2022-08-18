@@ -7,7 +7,7 @@ import LikesCount from './LikesCount'
 function HOC() {
   return (
     <div>
-      <EnchancedLikes />
+      <EnchancedLikes name='test'/>
       <EnchancedComments />
     </div>
   )

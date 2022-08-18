@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-const HOCcomponent = (Component, data) => {
+const HOCcomponent = (Component, number) => {
   return class extends React.Component {
     constructor(props) {
       super(props)
@@ -11,14 +11,14 @@ const HOCcomponent = (Component, data) => {
   
     handlerClick = () => {
       this.setState({
-        count: this.state.count + 1
+        count: this.state.count + number
       })
     }
 
     render() {
       return(
        
-          <Component countNumber={this.state.count} handlerClick={this.handlerClick}/>
+          <Component countNumber={this.state.count} handlerClick={this.handlerClick} {...this.props}/>
 
       )
     }

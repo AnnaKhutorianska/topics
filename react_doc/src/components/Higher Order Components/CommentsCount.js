@@ -26,6 +26,6 @@ class CommentsCount extends Component {
   }
 }
 
-const EnchancedComments = HOCcomponent(CommentsCount)
+const EnchancedComments = HOCcomponent(CommentsCount, 10)
 
 export default EnchancedComments
