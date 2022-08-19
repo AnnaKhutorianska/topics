@@ -1,5 +1,10 @@
-import React from "react";
-import HOC from "./components/Higher Order Components/HOC";
+import React, { useState, unstable_Profiler as Profiler } from "react";
+import HOC from "./components/advanced/Higher Order Components/HOCFunc/HOC";
+
+// import ProfilerComp from "./components/advanced/Profiler/Profiler";
+// import Component from "./components/advanced/Portals/Portals";
+// import Parent from "./components/advanced/Portals/Portals2";
+// import HOC from "./components/Higher Order Components/HOC";
 // import ForwardingRefs from "./components/ForwardingRefs/ForwardingRefs";
 // import { ContextTheme } from './components/Context/Context'
 // import Profile from "./components/Context/Profile";
@@ -13,17 +18,14 @@ import HOC from "./components/Higher Order Components/HOC";
 // import CountriesList from './components/ListAndKeys/CountriesList';
 
 
+
 function App() {
+  
+
   return (
-    <div>
-      {/* <ContextTheme>
-        <Profile />
-        <Theme />
-      </ContextTheme> */}
-      {/* <Users /> */}
-      {/* <ForwardingRefs /> */}
+     <div>
       <HOC />
-    </div>
+     </div>
   );
 }
 

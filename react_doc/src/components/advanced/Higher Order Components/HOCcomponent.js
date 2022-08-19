@@ -17,9 +17,7 @@ const HOCcomponent = (Component, number) => {
 
     render() {
       return(
-       
           <Component countNumber={this.state.count} handlerClick={this.handlerClick} {...this.props}/>
-
       )
     }
   }
