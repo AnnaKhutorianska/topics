@@ -1,6 +1,11 @@
 import React, { useState, unstable_Profiler as Profiler } from "react";
-import HOC from "./components/advanced/Higher Order Components/HOCFunc/HOC";
-
+import Component from "./components/advanced/Portals/Portals";
+import ReactWithoutES6 from "./components/advanced/React Without ES6/ReactWithoutES6";
+import ReactWithoutJSX from "./components/advanced/React Without JSX/ReactWithoutJSX";
+import CallbackRef from "./components/advanced/Refs and the DOM/CallbackRef";
+import ClassRef from "./components/advanced/Refs and the DOM/ClassRef";
+import FuncRef from "./components/advanced/Refs and the DOM/FuncRef";
+// import HOC from "./components/advanced/Higher Order Components/HOCFunc/HOC";
 // import ProfilerComp from "./components/advanced/Profiler/Profiler";
 // import Component from "./components/advanced/Portals/Portals";
 // import Parent from "./components/advanced/Portals/Portals2";
@@ -17,14 +22,24 @@ import HOC from "./components/advanced/Higher Order Components/HOCFunc/HOC";
 // import ListAndKeys from './components/ListAndKeys/ListAndKeys';
 // import CountriesList from './components/ListAndKeys/CountriesList';
 
-
-
 function App() {
-  
-
   return (
      <div>
-      <HOC />
+      {/* <Component />
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <div>
+        modal here
+        <br/>
+        <div id="modalRoot"></div>
+      </div> */}
+      {/* <ReactWithoutES6 count={10} /> */}
+      {/* <ReactWithoutJSX name='test test' /> */}
+      <ClassRef />
+      <FuncRef />
+      <CallbackRef />
      </div>
   );
 }

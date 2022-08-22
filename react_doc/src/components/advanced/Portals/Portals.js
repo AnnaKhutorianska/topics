@@ -1,5 +1,5 @@
 import React, {useState } from "react"
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom'
 
 function Modal({ message, isOpen, onClose }) {
   if (!isOpen) return null;
@@ -10,7 +10,7 @@ function Modal({ message, isOpen, onClose }) {
       <div>fsdfsfsafaf</div>
       <button onClick={onClose}>Close</button>
      </div>
-    ,document.body.getElementById('#modal'));
+    ,document.getElementById('modalRoot'));
 }
 
 
