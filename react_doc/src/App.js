@@ -5,6 +5,7 @@ import ReactWithoutJSX from "./components/advanced/React Without JSX/ReactWithou
 import CallbackRef from "./components/advanced/Refs and the DOM/CallbackRef";
 import ClassRef from "./components/advanced/Refs and the DOM/ClassRef";
 import FuncRef from "./components/advanced/Refs and the DOM/FuncRef";
+import { FirstList, SecondList } from "./components/advanced/RenderProps/RenderProps";
 // import HOC from "./components/advanced/Higher Order Components/HOCFunc/HOC";
 // import ProfilerComp from "./components/advanced/Profiler/Profiler";
 // import Component from "./components/advanced/Portals/Portals";
@@ -37,9 +38,11 @@ function App() {
       </div> */}
       {/* <ReactWithoutES6 count={10} /> */}
       {/* <ReactWithoutJSX name='test test' /> */}
-      <ClassRef />
+      {/* <ClassRef />
       <FuncRef />
-      <CallbackRef />
+      <CallbackRef /> */}
+      <FirstList />
+      <SecondList />
      </div>
   );
 }
