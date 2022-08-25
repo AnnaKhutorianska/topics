@@ -1,11 +1,15 @@
 import React, { useState, unstable_Profiler as Profiler } from "react";
-import Component from "./components/advanced/Portals/Portals";
-import ReactWithoutES6 from "./components/advanced/React Without ES6/ReactWithoutES6";
-import ReactWithoutJSX from "./components/advanced/React Without JSX/ReactWithoutJSX";
-import CallbackRef from "./components/advanced/Refs and the DOM/CallbackRef";
-import ClassRef from "./components/advanced/Refs and the DOM/ClassRef";
-import FuncRef from "./components/advanced/Refs and the DOM/FuncRef";
-import { FirstList, SecondList } from "./components/advanced/RenderProps/RenderProps";
+import CurrentRef from "./components/advanced/CurrentRef/CurrentRef";
+// import Component from "./components/advanced/Portals/Portals";
+// import ReactWithoutES6 from "./components/advanced/React Without ES6/ReactWithoutES6";
+// import ReactWithoutJSX from "./components/advanced/React Without JSX/ReactWithoutJSX";
+// import CallbackRef from "./components/advanced/Refs and the DOM/CallbackRef";
+// import ClassRef from "./components/advanced/Refs and the DOM/ClassRef";
+// import FuncRef from "./components/advanced/Refs and the DOM/FuncRef";
+// import { FirstList, SecondList } from "./components/advanced/RenderProps/RenderProps";
+import UncontrolledComponents from "./components/advanced/Uncontrolled Components/UncontrolledComponents";
+// import PropTypesComponent from "./components/PropTypes/PropTypes";
+// import PropTypesMain from "./components/PropTypes/PropTypesMain";
 // import HOC from "./components/advanced/Higher Order Components/HOCFunc/HOC";
 // import ProfilerComp from "./components/advanced/Profiler/Profiler";
 // import Component from "./components/advanced/Portals/Portals";
@@ -22,6 +26,7 @@ import { FirstList, SecondList } from "./components/advanced/RenderProps/RenderP
 // import LiftingStateUp from "./components/LiftingStateUp/LiftingStateUp";
 // import ListAndKeys from './components/ListAndKeys/ListAndKeys';
 // import CountriesList from './components/ListAndKeys/CountriesList';
+import "./components/advanced/Web Components/WebComponent";
 
 function App() {
   return (
@@ -41,9 +46,14 @@ function App() {
       {/* <ClassRef />
       <FuncRef />
       <CallbackRef /> */}
-      <FirstList />
-      <SecondList />
-     </div>
+      {/* <FirstList />
+      <SecondList /> */}
+      {/* <UncontrolledComponents /> */}
+      {/* <CurrentRef />
+       */}
+    <web-component></web-component>
+    </div>
+
   );
 }
 
