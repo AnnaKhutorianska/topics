@@ -27,6 +27,7 @@ import UncontrolledComponents from "./components/advanced/Uncontrolled Component
 // import ListAndKeys from './components/ListAndKeys/ListAndKeys';
 // import CountriesList from './components/ListAndKeys/CountriesList';
 import "./components/advanced/Web Components/WebComponent";
+import { ShadowView, WebComponent } from "./components/advanced/Web Components/WebComponent";
 
 function App() {
   return (
@@ -51,7 +52,9 @@ function App() {
       {/* <UncontrolledComponents /> */}
       {/* <CurrentRef />
        */}
-    <web-component></web-component>
+    {/* <web-component></web-component>
+     */}
+    <WebComponent />
     </div>
 
   );

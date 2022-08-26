@@ -11,5 +11,4 @@ function LikesCount({countNumber, handlerClick, name}) {
     )
 
 }
-
 export default HOCcomponent(LikesCount, 5)
