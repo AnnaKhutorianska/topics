@@ -1,3 +1,5 @@
+import ErrorBoundaries from "./Components/ErrorBoundaries/ErrorBoundaries";
+import ForceUpdate from "./Components/ForceUpdate/ForceUpdate";
 import { CompDidMount } from "./Components/LifeCycleMethods/CompDidMount";
 import { ComponentGetDevived } from "./Components/LifeCycleMethods/GetDelivedStateFromProps";
 import { GetSnapBefUpd } from "./Components/LifeCycleMethods/GetSnapBefUpd";
@@ -14,7 +16,9 @@ function App() {
       {/* <ComponentGetDevived name='name 2'/> */}
       {/* <CompDidMount /> */}
       {/* <CompNumber /> */}
-      <GetSnapBefUpd />
+      {/* <GetSnapBefUpd /> */}
+      {/* <ErrorBoundaries /> */}
+      <ForceUpdate />
     </div>
   );
 }
