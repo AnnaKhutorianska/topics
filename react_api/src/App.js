@@ -7,6 +7,7 @@ import { CompNumber } from "./Components/LifeCycleMethods/ShouldCompUpdate";
 import ReactMemo from "./Components/ReacMemo/ReactMemo";
 import IdBtn from "./Components/ReacMemo/ReactMemo";
 import { Titles } from "./Components/ReactChildren/ReactChildren";
+import FlushSyncComp from "./Components/ReactDOM/FlushSync";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       {/* <CompNumber /> */}
       {/* <GetSnapBefUpd /> */}
       {/* <ErrorBoundaries /> */}
-      <ForceUpdate />
+      {/* <ForceUpdate /> */}
+      <FlushSyncComp />
     </div>
   );
 }

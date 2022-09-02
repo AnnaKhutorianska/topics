@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, {useState, useEffect, useDebugValue} from 'react'
 
 function useFetchData(url) {
   const [data, setData] = useState([]);
@@ -8,6 +8,8 @@ function useFetchData(url) {
       .then((response) => response.json())
       .then((data) => setData(data));
   },[]);
+
+  useDebugValue(data)
 
   return data
 }
