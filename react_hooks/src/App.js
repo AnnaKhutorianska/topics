@@ -11,6 +11,7 @@ import ImperativeParent from "./Components/UseImperativeHeandlerComp/UseImperati
 import UseLayoutEffectComp from "./Components/UseLayoutEffectComp/UseLayoutEffectComp";
 import UseDeferredValueComp from "./Components/UseDeferredValueComp/UseDeferredValueComp";
 import UseTransitionComp from "./Components/UseTransitionComp/UseTransitionComp";
+import UseSuncExternalStore from "./Components/UseSyncExternalStore/UseSuncExternalStore";
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <ImperativeParent /> */}
       {/* <UseLayoutEffectComp /> */}
       {/* <UseDeferredValueComp /> */}
-      <UseTransitionComp />
+      {/* <UseTransitionComp /> */}
+      <UseSuncExternalStore />
     </div>
   );
 }
